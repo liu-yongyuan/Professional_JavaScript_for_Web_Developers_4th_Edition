@@ -77,4 +77,7 @@ Example for Professional JavaScript for Web Developers，4th Edition
 
 
         ECMA-262 第 16 版，俗称 ES16，ES2025，发布于 2025 年 6 月，即将发布
+
+
+        https://github.com/tc39/proposals/blob/HEAD/finished-proposals.md
 ```
