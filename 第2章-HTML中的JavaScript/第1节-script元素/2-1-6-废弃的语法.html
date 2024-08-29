@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+    </head>
+    <body>
+        <pre>
+                自 1995 年依赖，所有浏览器都将 JavaScript 作为默认的编程语言。
+            type 使用一个 MIME 类型字符串来表示 script 的内容。
+                在最初采用 script 元素是，他标志着开始走向与传统 HTML 解析不同
+            的流程。对这个元素需要应用特殊的解析规则，而这在不支持 JavaScript 浏览器中会
+            导致问题。不支持的浏览器会把 script 元素的内容输出到页面上，从而破坏页面的外观。
+
+                Netscape 联合 Mosaic 拿出了一个解决方案，对不支持 JavaScript  的浏览器
+            隐藏嵌入的 JavaScript 代码。最终方案是把脚本代码包含在一个 HTML 注释中，像这样：
+
+                &lt;script>&lt;!--
+                    function sayHi(){
+                        console.log("Hi!")
+                    }
+                // --&gt;&lt;/script>
+
+                虽然这种格式仍然可以被所有浏览器识别和解析，但以及不再必要，而且不应该在使用了
+            在 XHTML 模式下，这种格式也会导致脚本被忽略。
+        </pre>
+    </body>
+</html>
