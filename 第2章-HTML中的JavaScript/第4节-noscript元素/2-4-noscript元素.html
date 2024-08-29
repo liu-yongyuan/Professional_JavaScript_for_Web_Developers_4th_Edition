@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+    </head>
+    <body>
+        <pre>
+                针对早期浏览器不支持 JavaScript 的问题，需要一个页面优雅降级的处理方案。
+            最终， noscript 元素出现，被用于给不支持 JavaScript 的浏览器提供替代内容。
+            虽然浏览以支持 JavaScript，但对于禁用 JavaScript 的浏览器来说，这个元素
+            仍然有用处。
+                noscript 元素可以包含任何可以出现在 body 中的 HTML 元素，script 除外。
+            下面两种情况下，浏览器将显示包含在 noscript 中的内容：
+                · 浏览器不支持脚本
+                · 浏览器对脚本的支持被关闭。
+            任何一个条件被满足，包含在 noscript 中的内容就会被渲染。否则，浏览器不会渲染
+            noscript 中的内容
+        </pre>
+        <noscript>
+            <p> 这个页面必须在启用 Javascript 的浏览器中打开</p>
+        </noscript>
+    </body>
+</html>
