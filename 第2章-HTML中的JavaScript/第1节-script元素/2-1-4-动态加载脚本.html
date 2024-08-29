@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Example HTML Page</title>
+        <link rel="preload" href="2-1-元素.js">
+    </head>
+    <body>
+        <pre>
+                动态添加 script 元素。
+
+                以这种方式获取的资源对浏览器与加载器是不可见的。会严重影响它们在资源
+            获取队列中的优先级。根据应用程序的工作方式以及怎么使用，会严重影响性能。
+            想要与加载器知道这些动态请求文件的存在，可以在文档头部显示声明它们。
+                link rel="preload" href="2-1-元素.js"
+        </pre>
+        <script>
+            let script = document.createElement('script');
+            script.src = '2-1-元素.js';
+            script.async = true;
+            document.head.appendChild(script);
+        </script>
+    </body>
+</html>
