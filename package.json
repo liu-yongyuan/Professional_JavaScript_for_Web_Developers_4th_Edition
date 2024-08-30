@@ -1,0 +1,15 @@
+{
+  "name": "professional_javascript_for_web_developers_4th_edition",
+  "version": "1.0.0",
+  "description": "Example for Professional JavaScript for Web Developers，4th Edition",
+  "private":"true",
+  "type": "module",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
