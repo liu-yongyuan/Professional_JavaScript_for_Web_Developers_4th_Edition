@@ -2,7 +2,7 @@ import { logSpace } from "../../lib/utils.js";
 
 console.log(`
 
-    6.7.1 WeakMap 基本API
+    6.7.1 WeakSet 基本API
 
         可以使用 new 关键字实例化一个空的 WeakSet
 
