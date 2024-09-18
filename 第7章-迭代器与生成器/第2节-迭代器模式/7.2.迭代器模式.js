@@ -16,6 +16,6 @@ console.log(`
         任何实现 Iterable 接口的数据结构都可以被实现 Iterator 接口的结构“消费”（consume）。迭
     代器（iterator）是按需创建的一次性对象。每个迭代器都会关联一个可迭代对象，而迭代器会暴露迭代
     其关联可迭代对象的 API。迭代器无须了解其关联的可迭代对象的结构，只需要知道如何取得连续的值。
-    这种概念商的分离正是 Iterable 和 Iterator 的强大之处。
+    这种概念上的分离正是 Iterable 和 Iterator 的强大之处。
 
 `);
