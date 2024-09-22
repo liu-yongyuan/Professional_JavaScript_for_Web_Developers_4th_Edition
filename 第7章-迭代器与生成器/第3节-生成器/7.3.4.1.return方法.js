@@ -46,6 +46,7 @@ logSpace();
 console.log(`
 
         for-of 循环等内置语言结构会忽略状态为 done:true 的 IteratorObject 内部返回的值。
+    --- 不会，依旧会输出 1-3
 `);
 const g2 = generatorFn();
 /* 
